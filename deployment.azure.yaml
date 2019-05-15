@@ -14,7 +14,7 @@ spec:
     spec: 
       containers: 
       - name: java 
-        image: imageacr.azurecr.io/himani2203/maven_project:11
+        image: imageacr.azurecr.io/himani2203/maven_project:#{Build.BuildId}#
         ports: 
         - containerPort: 8080
 #      imagePullSecrets:
