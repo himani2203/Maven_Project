@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM java:8
 VOLUME /tmp
 EXPOSE 8080
 ADD ./target/sampledemo-0.0.1-SNAPSHOT.jar app.jar
